@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<sytle>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+/* Navbar */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: #222;
+}
+
+.logo {
+    color: white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: #00adb5;
+}
+
+/* Home Section */
+.home {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #f4f4f4;
+}
+
+.home span {
+    color: #00adb5;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background: #00adb5;
+    color: white;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover {
+    background: #007b80;
+}
+
+/* Sections */
+section {
+    padding: 60px 50px;
+    text-align: center;
+}
+
+.projects {
+    background: #f9f9f9;
+}
+
+.project-card {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 60%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+}
+<body>
+</sytle>
+
+
+    <!-- Navbar -->
+    <header>
+        <h1 class="logo">Rama Sahu</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <h2>Hello, I'm <span>Rama</span></h2>
+        <p>Aspiring Machine Learning Developer</p>
+        <button>Download Resume</button>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>
+            I am a passionate student interested in Machine Learning, 
+            Web Development and Data Science. 
+            I love building projects and learning new technologies.
+        </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+
+        <div class="project-card">
+            <h3>Movie Recommendation System</h3>
+            <p>ML based recommendation system using Python and Flask.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Heart Disease Prediction</h3>
+            <p>Logistic Regression model to predict heart disease.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: ramasahu@email.com</p>
+    </section>
+
+    <footer>
+        <p>© 2026 Rama Sahu | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
