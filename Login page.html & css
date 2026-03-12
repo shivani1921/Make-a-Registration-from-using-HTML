@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Creative Website</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <sytle>
+    *{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#f4f4f4;
+}
+
+header{
+position:absolute;
+width:100%;
+top:0;
+left:0;
+padding:20px 60px;
+}
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+color:white;
+}
+
+.logo{
+font-size:24px;
+font-weight:bold;
+color:white;
+}
+
+.logo span{
+color:#ff4b4b;
+}
+
+.nav-links{
+display:flex;
+list-style:none;
+gap:30px;
+}
+
+.nav-links li{
+cursor:pointer;
+}
+
+.hero{
+height:90vh;
+background-image:url("https://images.unsplash.com/photo-1498050108023-c5249f4df085");
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+}
+
+.hero-content h1{
+font-size:55px;
+margin-bottom:20px;
+}
+
+.hero-content p{
+font-size:18px;
+margin-bottom:30px;
+}
+
+.buttons{
+display:flex;
+justify-content:center;
+gap:20px;
+}
+
+.btn1{
+background:#ff4b4b;
+border:none;
+padding:12px 28px;
+border-radius:25px;
+color:white;
+font-size:16px;
+cursor:pointer;
+}
+
+.btn2{
+background:transparent;
+border:2px solid white;
+padding:12px 28px;
+border-radius:25px;
+color:white;
+font-size:16px;
+cursor:pointer;
+}
+
+.features{
+display:flex;
+justify-content:center;
+gap:40px;
+padding:80px 50px;
+background:#f0f0f0;
+}
+
+.feature-box{
+background:white;
+padding:35px;
+width:300px;
+text-align:center;
+box-shadow:0px 5px 15px rgba(0,0,0,0.1);
+}
+
+.feature-box h3{
+margin-bottom:10px;
+}
+  </sytle>
+
+<header>
+<div class="navbar">
+
+<div class="logo">lo<span>go</span></div>
+
+<ul class="nav-links">
+<li>Home</li>
+<li>Pages</li>
+<li>Portfolio</li>
+<li>Blog</li>
+<li>Contact</li>
+</ul>
+
+</div>
+</header>
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h1>Create Amazing Websites<br>With Amazing Graphics</h1>
+
+<p>We build modern, responsive and professional websites for businesses.</p>
+
+<div class="buttons">
+<button class="btn1">Explore More</button>
+<button class="btn2">Buy Now</button>
+</div>
+
+</div>
+
+</section>
+
+<section class="features">
+
+<div class="feature-box">
+<h3>Responsive Design</h3>
+<p>Perfectly optimized for mobile, tablet and desktop screens.</p>
+</div>
+
+<div class="feature-box">
+<h3>Modern UI</h3>
+<p>Clean layout with professional and attractive look.</p>
+</div>
+
+<div class="feature-box">
+<h3>Fast Performance</h3>
+<p>Optimized code structure for speed and SEO.</p>
+</div>
+
+</section>
+
+</body>
+</html>
